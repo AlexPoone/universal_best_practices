@@ -1,7 +1,7 @@
 # The Principled Dev
 
 ## Preamble
-As the saying goes, 'familiarity breeds contempt'. Most companies are rotten to the core, especially in the city (known as a 'place of solely for commuting, opposed to working') where I was (unfortunately) born in.
+As the saying goes, **'familiarity breeds contempt'**. Most companies are **rotten to the core**, especially in the city (known as a 'place of solely for commuting, opposed to working') where I was (unfortunately) born in.
 
 The jobs available in the city I was born in are mostly of supportive/secondary roles. Yet people always get into trouble with typical and simple tasks. The cause is not that the department is underfunded, it is always (the intelligence of) PEOPLE (Prof Davison, whom I know personally know, agrees with me).
 
