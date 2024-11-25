@@ -1,4 +1,4 @@
-# Preamble
+## Preamble
 As the saying goes, 'familiarity breeds contempt'. Most companies are rotten to the core, especially in the city (known as a 'place of solely for commuting, opposed to working') where I was (unfortunately) born in.
 
 The jobs available in the city I was born in are mostly of supportive/secondary roles. Yet people always get into trouble with typical and simple tasks. The cause is not that the department is underfunded, it is always (the intelligence of) PEOPLE (Prof Davison, whom I know personally know, agrees with me).
@@ -7,11 +7,11 @@ Alas, it was a simpler world decades ago, and those people undeservedly got thei
 
 Impose strict management principles so that you can increase autonomy of colleagues. The enforcer should follow these principles fully as well.
 
-# C R E D O
+## C R E D O
 
 What makes Peciel awesome? It's the tenets we'll never compromise on.
 
-## First things first
+### First things first
 1. Set up Automatic Backup for everything
 	a. Service(Windows)/daemon(Unix-like) is the best way to do it. It's not a big deal if the service is originally a daemon or not, as you can always easily wrap an executable using something like `forever`.
 2. Set up Version Control (I know this sounds ridiculous, but I've just recently come across some firms that don't use in 2024, goodness me)
@@ -20,13 +20,13 @@ What makes Peciel awesome? It's the tenets we'll never compromise on.
 	c. EDUCATE how branches work, what the commands do, what `.gitignore` does, the file size limit (if there is any), and the remedies when a colleague used it incorrectly
 3. Set up Issue Tracking system. Never use a spreadsheet for it ()
 
-## Comments and documentation
+### Comments and documentation
 4. Comment style: At least four spaces in front, format: `    // 20xx.xx.xx - Name - What has been changed`
 5. **API Testing**: NEVER use ~~curl~~ or ~~Postman~~ (obsolete tools), for [many obvious reasons, security and "Don't Repeat Yourself" just being two of them](#). ALWAYS use an OpenAPI generator from function comments.
 
 6. Push notifications: Explain what \*push\* notifications mean in the first place, as opposed to \*pull\* notifications. I found most people confused by it. Push notifications are ephemeral and should not be stored in servers, except the ones that need to be resent as a result of an error. Instead you should synchronise new notifications with old ones in local mobile storage. ALWAYS use a wrapper to wrap methods so that you can test them (both manually and automatically before CI/CD).
 
-## Error handling
+### Error handling
 7. **RFC 9457**: Use the standard, troubleshoot-able format for all HTTP responses. The more verbose the better, but without the compromise of security:
 ```python3
 from flask import make_response
@@ -55,7 +55,7 @@ return res
 
 11. 'Mobile-first approach' for Web page/application: When previewing webpage changes, always check the **mobile** site first.
 
-## Testing and Deployment
+### Testing and Deployment
 
 12. EXPLAIN that the new Microsoft Edge browser is essentially Chromium. There is little point conducting unit tests with the browser.
 
@@ -68,7 +68,7 @@ return res
 19. **ISO 27001**: Use containerisation to isolate working sensitive data.
 20. **ISO 27001**: Remove data that are no longer been used. (how to ensure it?)
 
-# Yet... Technicalities are NOT The MOST Important!
+## Yet... Technicalities are NOT The MOST Important!
 1. ALWAYS introduce yourself, shares your GitHub account and ask the colleauge to follow you, follows him/her back.
 2. ALWAYS talk slowly (and softly). NEVER talk fast. Fast talkers, especially at the workplace, not only lead to misunderstanding, but also gives an impression of being an idiot. The Irish poet talked very slowly on the Japanese show has left a deep impression on me. A famous HK commentator and English pedagogue also noted that the missionaries who taught him English talked slowly, such that he understood most of what he was speeking, which gave him much confidence.
 3. ALWAYS smile and give eye contact.
@@ -77,5 +77,4 @@ return res
 6. NEVER speak a word of profanity, including minced oath.
 
 <!-- Red flags -->
-
-Secure payment
+<!-- Secure payment -->
