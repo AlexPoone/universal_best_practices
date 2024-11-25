@@ -20,7 +20,7 @@ What makes Peciel awesome? It's the tenets we'll never compromise on.
   * Use Version Control for EVERYTHING, including DATABASE CHANGES and CONFIGURATION CHANGE
   * At least create one working branch for one working unit, one for each version, and one master branch
   * EDUCATE how branches work, what the commands do, what `.gitignore` does, the file size limit (if there is any), and the remedies when a colleague used it incorrectly
-3. Set up Issue Tracking system. Never use a spreadsheet for it ()
+3. Set up Issue Tracking system. Never use a spreadsheet for it. (spreadsheets may have privacy and access control issues; the file will become extremely large; lack of data control; lack of suitable analytical tools...)
 
 ### Comments and documentation
 4. Comment style: At least four spaces in front, format: `    // 20xx.xx.xx - Name - What has been changed`
