@@ -9,7 +9,7 @@ Impose strict management principles so that you can increase autonomy of colleag
 
 # C R E D O
 
-Why makes Peciel awesome? It's the tenets we'll never compromise on.
+What makes Peciel awesome? It's the tenets we'll never compromise on.
 
 ## First things first
 1. Set up Automatic Backup for everything
