@@ -15,11 +15,11 @@ What makes Peciel awesome? It's the tenets we'll never compromise on.
 
 ### First things first
 1. Set up Automatic Backup for everything
-	* Service(Windows)/daemon(Unix-like) is the best way to do it. It's not a big deal if the service is originally a daemon or not, as you can always easily wrap an executable using something like `forever`.
+  * Service(Windows)/daemon(Unix-like) is the best way to do it. It's not a big deal if the service is originally a daemon or not, as you can always easily wrap an executable using something like `forever`.
 2. Set up Version Control (I know this sounds ridiculous, but I've just recently come across some firms that don't use in 2024, goodness me)
   * Use Version Control for EVERYTHING, including DATABASE CHANGES and CONFIGURATION CHANGE
-	* At least create one working branch for one working unit, one for each version, and one master branch
-	* EDUCATE how branches work, what the commands do, what `.gitignore` does, the file size limit (if there is any), and the remedies when a colleague used it incorrectly
+  * At least create one working branch for one working unit, one for each version, and one master branch
+  * EDUCATE how branches work, what the commands do, what `.gitignore` does, the file size limit (if there is any), and the remedies when a colleague used it incorrectly
 3. Set up Issue Tracking system. Never use a spreadsheet for it ()
 
 ### Comments and documentation
@@ -49,13 +49,13 @@ res.headers['Content-Type'] = 'application/problem+json'
 res.headers['Content-Language'] = 'en'
 return res
 ```
-8. Public-facing error messages: If you follow Always include telephone number, email, (and office hours) of the technical support team. Ideally the customer can click on a button to email the internal error (`traceId` field in RFC 9457) to technical support.
+8. Public-facing error messages: If you follow Always include telephone number, email, (and office hours) of the technical support team. Ideally the customer can click on a button to email the internal error (`traceId` field in RFC 9457 HTTP response) to technical support.
 
 9. Use battle-proven libraries, even when they are a tad more efficient, consumes less storage, etc. Don't use some random project by some Russian developer on GitHub with a dozen of stars, for the sake of a millisecond performance increase. (Alas, this is a true story.) Always fork the library and keep it up to date.
 
 10. Spend most of your time writing unit tests, that can be used as a yardstick for a new release, especially as automatic tests before continuous integration/deployment (CI/CD).
 
-11. 'Mobile-first approach' for Web page/application: When previewing webpage changes, always check the **mobile** site first.
+11. **Mobile-first approach** for Web page/application: When previewing webpage changes, always check the **mobile** site first.
 
 ### Testing and Deployment
 
