@@ -1,4 +1,4 @@
-The Principled Dev.
+# The Principled Dev
 
 ## Preamble
 As the saying goes, 'familiarity breeds contempt'. Most companies are rotten to the core, especially in the city (known as a 'place of solely for commuting, opposed to working') where I was (unfortunately) born in.
