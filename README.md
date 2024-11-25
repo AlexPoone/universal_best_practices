@@ -65,7 +65,7 @@ return res
 14. **RFC 7519**: use JWT for everything confidential, like a log in session. DON'T store it in `window.localStorage`, store it in a Cookie with proper timeout.
 15. Build your own build tools, such that it is adapted to the use case.
 16. Eat your own dog food.
-17. For mobile applications, use a single codebase (e.g., Flutter, React Native) when possible (Don't Repeat Yourself, also saves the effort of writing and maintaining code)
+17. For mobile applications, use a single code base (e.g., Flutter, React Native) when possible (Don't Repeat Yourself, also saves the effort of writing and maintaining code)
 18. **Atomic microservices**: Break tasks to microservices that do one thing only. Most of them should be reusable. Use an orchestration suite (there are lightweight ones like Airflow) for arrangement and error handling.
 19. **ISO 27001**: Use containerisation to isolate working sensitive data.
 20. **ISO 27001**: Remove data that are no longer been used. (how to ensure it?)
