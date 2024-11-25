@@ -76,7 +76,7 @@ return res
 3. ALWAYS smile and give eye contact.
 4. ALWAYS remember the names of your colleagues.
 5. Keep the workplace clean and dust-free. This leaves a good impression.
-6. NEVER speak a word of profanity, including minced oath.
+6. NEVER speak a word of profanity, including a minced oath.
 
 <!-- Red flags -->
 <!-- Secure payment -->
