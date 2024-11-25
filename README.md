@@ -51,7 +51,7 @@ return res
 ```
 8. Public-facing error messages: If you follow Always include telephone number, email, (and office hours) of the technical support team. Ideally the customer can click on a button to email the internal error (`traceId` field in RFC 9457 HTTP response) to technical support.
 
-9. Use battle-proven libraries, even when they are a tad more efficient, consumes less storage, etc. Don't use some random project by some Russian developer on GitHub with a dozen of stars, for the sake of a millisecond performance increase. (Alas, this is a true story.) Always fork the library and keep it up to date.
+9. Use battle-tested libraries, even when they are a tad more efficient, consumes less storage, etc. Don't use some random project by some Russian developer on GitHub with a dozen of stars, for the sake of a millisecond performance increase. (Alas, this is a true story.) Always fork the library and keep it up to date.
 
 10. Spend most of your time writing unit tests, that can be used as a yardstick for a new release, especially as automatic tests before continuous integration/deployment (CI/CD).
 
