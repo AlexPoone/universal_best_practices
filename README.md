@@ -70,7 +70,7 @@ return res
 19. **ISO 27001**: Use containerisation to isolate working sensitive data.
 20. **ISO 27001**: Remove data that are no longer been used. (how to ensure it?)
 
-## Yet... Technicalities are NOT The MOST Important!
+## Yet... Technicalities are NOT the Most Important!
 1. ALWAYS introduce yourself, shares your GitHub account and ask the colleauge to follow you, follows him/her back.
 2. ALWAYS talk slowly (and softly). NEVER talk fast. Fast talkers, especially at the workplace, not only lead to misunderstanding, but also gives an impression of being an idiot. The Irish poet talked very slowly on the Japanese show has left a deep impression on me. A famous commentator and English pedagogue from the city I was born in also noted that the missionaries who taught him English talked slowly, such that he understood most of what he was speeking, which gave him much confidence.
 3. ALWAYS smile and give eye contact.
