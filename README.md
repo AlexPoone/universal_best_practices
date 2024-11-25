@@ -13,11 +13,11 @@ What makes Peciel awesome? It's the tenets we'll never compromise on.
 
 ### First things first
 1. Set up Automatic Backup for everything
-	a. Service(Windows)/daemon(Unix-like) is the best way to do it. It's not a big deal if the service is originally a daemon or not, as you can always easily wrap an executable using something like `forever`.
+	* Service(Windows)/daemon(Unix-like) is the best way to do it. It's not a big deal if the service is originally a daemon or not, as you can always easily wrap an executable using something like `forever`.
 2. Set up Version Control (I know this sounds ridiculous, but I've just recently come across some firms that don't use in 2024, goodness me)
-	a. Use Version Control for EVERYTHING, including DATABASE CHANGES and CONFIGURATION CHANGE
-	b. At least create one working branch for one working unit, one for each version, and one master branch
-	c. EDUCATE how branches work, what the commands do, what `.gitignore` does, the file size limit (if there is any), and the remedies when a colleague used it incorrectly
+  * Use Version Control for EVERYTHING, including DATABASE CHANGES and CONFIGURATION CHANGE
+	* At least create one working branch for one working unit, one for each version, and one master branch
+	* EDUCATE how branches work, what the commands do, what `.gitignore` does, the file size limit (if there is any), and the remedies when a colleague used it incorrectly
 3. Set up Issue Tracking system. Never use a spreadsheet for it ()
 
 ### Comments and documentation
@@ -70,9 +70,9 @@ return res
 
 ## Yet... Technicalities are NOT The MOST Important!
 1. ALWAYS introduce yourself, shares your GitHub account and ask the colleauge to follow you, follows him/her back.
-2. ALWAYS talk slowly (and softly). NEVER talk fast. Fast talkers, especially at the workplace, not only lead to misunderstanding, but also gives an impression of being an idiot. The Irish poet talked very slowly on the Japanese show has left a deep impression on me. A famous HK commentator and English pedagogue also noted that the missionaries who taught him English talked slowly, such that he understood most of what he was speeking, which gave him much confidence.
+2. ALWAYS talk slowly (and softly). NEVER talk fast. Fast talkers, especially at the workplace, not only lead to misunderstanding, but also gives an impression of being an idiot. The Irish poet talked very slowly on the Japanese show has left a deep impression on me. A famous commentator and English pedagogue from the city I was born in also noted that the missionaries who taught him English talked slowly, such that he understood most of what he was speeking, which gave him much confidence.
 3. ALWAYS smile and give eye contact.
-4. ALWAYS remember your colleagues' names.
+4. ALWAYS remember the names of your colleagues.
 5. Keep the workplace clean and dust-free. This leaves a good impression.
 6. NEVER speak a word of profanity, including minced oath.
 
