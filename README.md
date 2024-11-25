@@ -5,7 +5,7 @@ As the saying goes, **'familiarity breeds contempt'**. Most companies are **rott
 
 The jobs available in the city I was born in are mostly of supportive/secondary roles. Yet people always get into trouble with typical and simple tasks. The cause is not that the department is underfunded, it is always (the intelligence of) PEOPLE (Prof Davison, whom I know personally know, agrees with me).
 
-Alas, it was a simpler world decades ago, and those people undeservedly got their position only by seniority and not by merit. These nouveau-riche only profited from the aftermath of the Cold War. We call them 'die-gwen-yow' (大滾友), literally 'big-roll [as in 'this is how we roll']-guy') or 'chong-low' (廠佬), literally 'factory-guy' in Cantonese with no particularly good translations.
+Alas, it was a simpler world decades ago, and those people undeservedly got their position only by seniority and not by merit. These nouveau-riche only profited from the aftermath of the Cold War. We call them 'die-gwen-yow' (大滾友), literally 'big-roll [as in 'this is how we roll']-guy') or 'chong-low' (廠佬), literally 'factory-guy' in Cantonese, both having no particularly good translations.
 
 Impose strict management principles so that you can increase autonomy of colleagues. The enforcer should follow these principles fully as well.
 
