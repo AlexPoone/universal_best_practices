@@ -51,26 +51,27 @@ return res
 ```
 8. Public-facing error messages: If you follow Always include telephone number, email, (and office hours) of the technical support team. Ideally the customer can click on a button to email the internal error (`traceId` field in RFC 9457 HTTP response) to technical support.
 
+### Common routines
+9. **[RFC 7009](https://datatracker.ietf.org/doc/rfc7009/)**: OAuth 2.0 Token Revocation.
+10. **[RFC 7519](https://datatracker.ietf.org/doc/rfc7519/)**: use JWT for everything confidential, like a log in session. DON'T store it in `window.localStorage`, store it in a Cookie with proper timeout.
+11. Build your own build tools, such that it is adapted to the use case.
+12. Eat your own dog food.
+13. For mobile applications, use a single code base (e.g., Flutter, React Native) when possible (Don't Repeat Yourself; also saves the effort of writing and maintaining code)
+14. **Atomic microservices**: Break tasks to microservices that do one thing only. Most of them should be reusable. Use an orchestration suite (there are lightweight ones like Airflow) for arrangement and error handling.
+15. **ISO 27001**: Use containerisation to isolate working sensitive data.
+16. **ISO 27001**: Remove data that are no longer been used. (how to ensure it?)
+
 ### Dependencies
 
-9. Use battle-tested libraries, even if they are only slightly more efficient or consume less storage, etc. Don’t use some random project by some Russian developer on GitHub that has only a dozen stars for the sake of a millisecond performance increase. (Alas, this is a true story.) Always fork the library and keep it updated yourself.
+17. Use battle-tested libraries, even if they are only slightly more efficient or consume less storage, etc. Don’t use some random project by some Russian developer on GitHub that has only a dozen stars for the sake of a millisecond performance increase. (Alas, this is a true story.) Always fork the library and keep it updated yourself.
 
 ### Testing and deployment
 
-10. Spend most of your time writing unit tests, that can be used as a yardstick for a new release, especially as automatic tests before continuous integration/deployment (CI/CD).
+18. Spend most of your time writing unit tests, that can be used as a yardstick for a new release, especially as automatic tests before continuous integration/deployment (CI/CD).
 
-11. **Mobile-first approach** for Web page/application: When previewing webpage changes, always check the **mobile** site first.
+19. **Mobile-first approach** for Web page/application: When previewing webpage changes, always check the **mobile** site first.
 
-12. EXPLAIN that the new Microsoft Edge browser is essentially Chromium, the base of Google Chrome. There is little point conducting unit tests with the browser.
-
-13. **[RFC 7009](https://datatracker.ietf.org/doc/rfc7009/)**: OAuth 2.0 Token Revocation.
-14. **[RFC 7519](https://datatracker.ietf.org/doc/rfc7519/)**: use JWT for everything confidential, like a log in session. DON'T store it in `window.localStorage`, store it in a Cookie with proper timeout.
-15. Build your own build tools, such that it is adapted to the use case.
-16. Eat your own dog food.
-17. For mobile applications, use a single code base (e.g., Flutter, React Native) when possible (Don't Repeat Yourself; also saves the effort of writing and maintaining code)
-18. **Atomic microservices**: Break tasks to microservices that do one thing only. Most of them should be reusable. Use an orchestration suite (there are lightweight ones like Airflow) for arrangement and error handling.
-19. **ISO 27001**: Use containerisation to isolate working sensitive data.
-20. **ISO 27001**: Remove data that are no longer been used. (how to ensure it?)
+20. EXPLAIN that the new Microsoft Edge browser is essentially Chromium, the base of Google Chrome. There is little point conducting unit tests with the browser.
 
 ## Yet... Technicalities are NOT the Most Important!
 Just be proper:
