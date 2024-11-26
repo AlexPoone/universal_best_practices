@@ -57,7 +57,7 @@ return res
 11. Build your own build tools, such that it is adapted to the use case.
 12. Eat your own dog food.
 13. For mobile applications, use a single code base (e.g., Flutter, React Native) when possible (Don't Repeat Yourself; also saves the effort of writing and maintaining code)
-14. **Atomic microservices**: Break tasks to microservices that do one thing only. Most of them should be reusable. Use an orchestration suite (there are lightweight ones like Airflow) for arrangement and error handling.
+14. **Atomic microservices**: Break tasks to microservices that do one thing only. Most of them should be reusable. Use an orchestration suite (there are lightweight ones like [Airflow](https://airflow.apache.org/) for arrangement and error handling.
 15. **ISO 27001**: Use containerisation to isolate working sensitive data.
 16. **ISO 27001**: Remove data that are no longer been used. (how to ensure it?)
 
