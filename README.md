@@ -17,7 +17,7 @@ What makes Peciel awesome? It's the tenets we'll never compromise on.
 1. Set up Automatic Backup for everything
     * Service(Windows)/daemon(Unix-like) is the best way to do it. It's not a big deal if the service is originally a daemon or not, as you can always easily wrap an executable using something like `forever`.
 2. Set up Version Control (I know this sounds ridiculous, but I've just recently come across some firms that don't use in 2024, goodness me)
-    * Use Version Control for EVERYTHING, including **DATABASE, CONFIGURATION AND NETWORK CHANGES**
+    * Use Version Control for EVERYTHING, including **DATABASE CHANGES, CONFIGURATION CHANGES, AND NETWORK CHANGES**
     * At least create one working branch for one working unit, one for each version, and one master branch
     * EDUCATE how branches work, what the commands do, what `.gitignore` does, the file size limit (if there is any), and the remedies when a colleague used it incorrectly
 3. Set up Issue Tracking system. Never use a spreadsheet for it. (spreadsheets may have privacy and access control issues; the file will become extremely large; lack of data control; lack of suitable analytical tools...)
