@@ -53,7 +53,7 @@ return res
 
 ### Dependencies
 
-9. Use battle-tested libraries, even when they are a tad more efficient, consumes less storage, etc. Don't use some random project by some Russian developer on GitHub with a dozen of stars, for the sake of a millisecond performance increase. (Alas, this is a true story.) Always fork the library and keep it up to date yourself.
+9. Use battle-tested libraries, even if they are only slightly more efficient or consume less storage, etc. Don’t use some random project by some Russian developer on GitHub that has only a dozen stars for the sake of a millisecond performance increase. (Alas, this is a true story.) Always fork the library and keep it updated yourself.
 
 ### Testing and deployment
 
