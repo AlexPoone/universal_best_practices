@@ -29,7 +29,7 @@ What makes Peciel awesome? It's the tenets we'll never compromise on.
 6. Push notifications: Explain what \*push\* notifications mean in the first place, as opposed to \*pull\* notifications. I found most people confused by it. Push notifications are ephemeral and should not be stored in servers, except the ones that need to be resent as a result of an error. Instead you should synchronise new notifications with old ones in local mobile storage. ALWAYS use a wrapper to wrap methods so that you can test them (both manually and automatically before CI/CD).
 
 ### Error handling
-7. **RFC 9457**: Use the standard, troubleshoot-able format for all HTTP responses. The more verbose the better, but without the compromise of security:
+7. **[RFC 9457](https://datatracker.ietf.org/doc/rfc9457/)**: Use the standard, troubleshoot-able format for all HTTP responses. The more verbose the better, but without the compromise of security:
 ```python3
 from flask import make_response
 
@@ -61,8 +61,8 @@ return res
 
 12. EXPLAIN that the new Microsoft Edge browser is essentially Chromium, the base of Google Chrome. There is little point conducting unit tests with the browser.
 
-13. **RFC 7009**: OAuth 2.0 Token Revocation.
-14. **RFC 7519**: use JWT for everything confidential, like a log in session. DON'T store it in `window.localStorage`, store it in a Cookie with proper timeout.
+13. **[RFC 7009](https://datatracker.ietf.org/doc/rfc7009/)**: OAuth 2.0 Token Revocation.
+14. **[RFC 7519](https://datatracker.ietf.org/doc/rfc7519/)**: use JWT for everything confidential, like a log in session. DON'T store it in `window.localStorage`, store it in a Cookie with proper timeout.
 15. Build your own build tools, such that it is adapted to the use case.
 16. Eat your own dog food.
 17. For mobile applications, use a single code base (e.g., Flutter, React Native) when possible (Don't Repeat Yourself; also saves the effort of writing and maintaining code)
