@@ -1,5 +1,9 @@
 # The Principled Dev
 
+## C R E D O
+
+What makes Peciel awesome? It's the tenets we'll never compromise on.
+
 ## Preamble
 As the saying goes, **'familiarity breeds contempt'**. Most companies are **rotten to the core**, especially in the city (known as a 'place of solely for commuting, opposed to working') where I was (unfortunately) born in.
 
@@ -7,11 +11,7 @@ The jobs available in the city I was born in are mostly of supportive/secondary 
 
 Alas, it was a simpler world decades ago, and those people undeservedly got their position only by seniority and not by merit. These nouveau-riche only profited from the aftermath of the Cold War. We call them 'die-gwen-yow' (大滾友), literally 'big-roll [as in 'this is how we roll']-guy') or 'chong-low' (廠佬), literally 'factory-guy' in Cantonese, both having no particularly good translations.
 
-Impose strict management principles so that you can increase autonomy of colleagues. The enforcer should follow these principles fully as well.
-
-## C R E D O
-
-What makes Peciel awesome? It's the tenets we'll never compromise on.
+We must have strong conviction. Freedom must be forced: Impose strict management principles so that you can increase autonomy of colleagues. Of course, the enforcers should follow these principles fully as well.
 
 ### First things first
 1. Set up Automatic Backup for everything
