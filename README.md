@@ -51,13 +51,15 @@ return res
 ```
 8. Public-facing error messages: If you follow Always include telephone number, email, (and office hours) of the technical support team. Ideally the customer can click on a button to email the internal error (`traceId` field in RFC 9457 HTTP response) to technical support.
 
-9. Use battle-tested libraries, even when they are a tad more efficient, consumes less storage, etc. Don't use some random project by some Russian developer on GitHub with a dozen of stars, for the sake of a millisecond performance increase. (Alas, this is a true story.) Always fork the library and keep it up to date.
+### Dependencies
+
+9. Use battle-tested libraries, even when they are a tad more efficient, consumes less storage, etc. Don't use some random project by some Russian developer on GitHub with a dozen of stars, for the sake of a millisecond performance increase. (Alas, this is a true story.) Always fork the library and keep it up to date yourself.
+
+### Testing and deployment
 
 10. Spend most of your time writing unit tests, that can be used as a yardstick for a new release, especially as automatic tests before continuous integration/deployment (CI/CD).
 
 11. **Mobile-first approach** for Web page/application: When previewing webpage changes, always check the **mobile** site first.
-
-### Testing and deployment
 
 12. EXPLAIN that the new Microsoft Edge browser is essentially Chromium, the base of Google Chrome. There is little point conducting unit tests with the browser.
 
