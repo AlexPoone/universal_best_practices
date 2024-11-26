@@ -57,7 +57,7 @@ return res
 
 11. **Mobile-first approach** for Web page/application: When previewing webpage changes, always check the **mobile** site first.
 
-### Testing and Deployment
+### Testing and deployment
 
 12. EXPLAIN that the new Microsoft Edge browser is essentially Chromium, the base of Google Chrome. There is little point conducting unit tests with the browser.
 
