@@ -23,7 +23,7 @@ What makes Peciel awesome? It's the tenets we'll never compromise on.
 3. Set up Issue Tracking system. Never use a spreadsheet for it. (spreadsheets may have privacy and access control issues; the file will become extremely large; lack of data control; lack of suitable analytical tools...)
 
 ### Comments and documentation
-4. Comment style: At least four spaces in front, format: `    // 20xx.xx.xx - Name - What has been changed`
+4. Line comment style: At least four spaces in front, format: `    // 20xx.xx.xx - Name - What has been changed`
 5. **API Testing**: NEVER use ~~curl~~ or ~~Postman~~ (obsolete tools), for [many obvious reasons, security and "Don't Repeat Yourself" just being two of them](https://peciel.com/blog/2024/10/01/why-you-should-never-ever-use-postman). ALWAYS use an OpenAPI generator from function comments.
 
 6. Push notifications: Explain what \*push\* notifications mean in the first place, as opposed to \*pull\* notifications. I found most people confused by it. Push notifications are ephemeral and should not be stored in servers, except the ones that need to be resent as a result of an error. Instead you should synchronise new notifications with old ones in local mobile storage. ALWAYS use a wrapper to wrap methods so that you can test them (both manually and automatically before CI/CD).
