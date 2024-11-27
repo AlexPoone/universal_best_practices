@@ -1,6 +1,6 @@
-## The Principled Dev
+# The Principled Dev
 
-### C R E D O
+## C R E D O
 
 What makes Peciel awesome? It's the tenets we'll never compromise on.
 
