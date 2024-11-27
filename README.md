@@ -16,7 +16,6 @@ We must have strong conviction. Freedom must be forced: Impose strict management
 ## C R E D O
 
 What makes Peciel awesome? It's the tenets we'll never compromise on.
->>>>>>> f8d614ae9b7e858f3fa2a02ba3cad872507f6c7c
 
 ### First things first
 1. Set Up Automatic Backup for Everything
@@ -25,6 +24,7 @@ What makes Peciel awesome? It's the tenets we'll never compromise on.
     * Use version control for EVERYTHING, including **DATABASE CHANGES, CONFIGURATION CHANGES, AND NETWORK CHANGES**.
     * At a minimum, create one working branch for each working unit, one for each version, and one master branch.
     * EDUCATE colleagues on how branches work, what the commands do, what `.gitignore` does, the file size limit (if there is any), and the remedies when a colleague uses it incorrectly.
+    * Use [monorepos](https://en.wikipedia.org/wiki/Monorepo) to ease code reuse
 3. Set Up an Issue Tracking System
     * Never use a spreadsheet for this. (Spreadsheets may have privacy and access control issues; the file will become extremely large; there is a lack of data control; and there are limited analytical tools available...)
 
