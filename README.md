@@ -13,10 +13,6 @@ Alas, it was a simpler world decades ago, and those individuals undeservedly att
 
 We must have strong conviction. Freedom must be forced: Impose strict management principles so that you can increase the autonomy of colleagues. Of course, the enforcers should adhere to these principles fully as well.
 
-## C R E D O
-
-What makes Peciel awesome? It's the tenets we'll never compromise on.
-
 ### First things first
 1. Set Up Automatic Backup for Everything
     * A service (Windows) or daemon (Unix-like) is the best way to do this. It doesn't matter if the service was originally a daemon; you can always easily wrap an executable using something like `forever`.
