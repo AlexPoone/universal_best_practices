@@ -1,10 +1,10 @@
-# The Principled Dev
+## The Principled Dev
 
-## C R E D O
+### C R E D O
 
 What makes Peciel awesome? It's the tenets we'll never compromise on.
 
-## Preamble
+### Preamble
 As the saying goes, "familiarity breeds contempt." Most companies are rotten to the core, especially in the city known as a "place solely for commuting, as opposed to working," where I was (unfortunately) born.
 
 The jobs available in the city I was born in are mostly supportive or secondary roles. Yet, people often get into trouble with typical and simple tasks. The cause is not that the department is underfunded; it is always the intelligence of the PEOPLE.
