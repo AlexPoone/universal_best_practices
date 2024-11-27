@@ -25,7 +25,7 @@ We must have strong conviction. Freedom must be forced: Impose strict management
     * Never use a spreadsheet for this. (Spreadsheets may have privacy and access control issues; the file will become extremely large; there is a lack of data control; and there are limited analytical tools available...)
 
 ### Comments and documentation
-4. Line comment style: At least four spaces in front, format: `    // 20xx.xx.xx - Name - What has been changed`
+4. Line comment style: At least four spaces in front, format: `    // 20xx.xx.xx - Your name - What has been changed`
 5. **API Testing**: NEVER use ~~curl~~ or ~~Postman~~ (obsolete tools), for [many obvious reasons, security and "Don't Repeat Yourself" just being two of them](https://peciel.com/blog/2024/10/01/why-you-should-never-ever-use-postman). ALWAYS use an OpenAPI generator from function comments.
 
 ### Error handling
