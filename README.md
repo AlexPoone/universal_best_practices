@@ -51,28 +51,30 @@ return res
 ```
 7. Public-facing error messages: If you follow Always include telephone number, email, (and office hours) of the technical support team. Ideally the customer can click on a button to email the internal error (`traceId` field in RFC 9457 HTTP response) to technical support.
 
+8. Prevent double post: It should be handled both on the front end and back end. While you should always disable a button immediately after clicking it, the server should handle duplicate requests as well.
+
 ### Standard routines
-8. Push Notifications: Explain what \*push\* notifications mean in the first place, as opposed to \*pull\* notifications. I have found that most people are confused by this distinction. Push notifications are ephemeral and should not be stored on servers, except for those that need to be resent due to an error. Instead, you should synchronize new notifications with old ones in local mobile storage. ALWAYS use a wrapper to encapsulate methods so that you can test them (both manually and automatically) before CI/CD.
-9. **[RFC 7009](https://datatracker.ietf.org/doc/rfc7009/)**: OAuth 2.0 Token Revocation.
-10. **[RFC 7519](https://datatracker.ietf.org/doc/rfc7519/)**: use JWT for everything confidential, like a log in session. These information must be encrypted beforehand. DON'T store them in `window.localStorage`, store it in Cookies with proper timeout.
-11. Build your own build tools, such that it is adapted to the use case.
-12. Eat your own dog food.
-13. For mobile applications, use a single code base (e.g., Flutter, React Native) when possible (Don't Repeat Yourself; also saves the effort of writing and maintaining code)
-14. **Atomic microservices**: Break tasks to microservices that do one thing only. Most of them should be reusable. Use an orchestration suite (there are lightweight ones like [Airflow](https://airflow.apache.org/) for arrangement and error handling.
-15. **ISO 27001**: Use containerisation to isolate working sensitive data.
-16. **ISO 27001**: Remove data that are no longer been used. (how to ensure it?)
+9. Push Notifications: Explain what \*push\* notifications mean in the first place, as opposed to \*pull\* notifications. I have found that most people are confused by this distinction. Push notifications are ephemeral and should not be stored on servers, except for those that need to be resent due to an error. Instead, you should synchronize new notifications with old ones in local mobile storage. ALWAYS use a wrapper to encapsulate methods so that you can test them (both manually and automatically) before CI/CD.
+10. **[RFC 7009](https://datatracker.ietf.org/doc/rfc7009/)**: OAuth 2.0 Token Revocation.
+11. **[RFC 7519](https://datatracker.ietf.org/doc/rfc7519/)**: use JWT for everything confidential, like a log in session. These information must be encrypted beforehand. DON'T store them in `window.localStorage`, store it in Cookies with proper timeout.
+12. Build your own build tools, such that it is adapted to the use case.
+13. Eat your own dog food.
+14. For mobile applications, use a single code base (e.g., Flutter, React Native) when possible (Don't Repeat Yourself; also saves the effort of writing and maintaining code)
+15. **Atomic microservices**: Break tasks to microservices that do one thing only. Most of them should be reusable. Use an orchestration suite (there are lightweight ones like [Airflow](https://airflow.apache.org/) for arrangement and error handling.
+16. **ISO 27001**: Use containerisation to isolate working sensitive data.
+17. **ISO 27001**: Remove data that are no longer been used. (how to ensure it?)
 
 ### Dependencies
 
-17. Use battle-tested libraries, even if they are only slightly more efficient or consume less storage, etc. Don’t use some random project by some Russian developer on GitHub that has only a dozen stars for the sake of a millisecond performance increase. (Alas, this is a true story.) Always fork the library and keep it updated yourself.
+18. Use battle-tested libraries, even if they are only slightly more efficient or consume less storage, etc. Don’t use some random project by some Russian developer on GitHub that has only a dozen stars for the sake of a millisecond performance increase. (Alas, this is a true story.) Always fork the library and keep it updated yourself.
 
 ### Testing and deployment
 
-18. Spend most of your time writing unit tests, that can be used as a yardstick for a new release, especially as automatic tests before continuous integration/deployment (CI/CD).
+19. Spend most of your time writing unit tests, that can be used as a yardstick for a new release, especially as automatic tests before continuous integration/deployment (CI/CD).
 
-19. **Mobile-first approach** for Web page/application: When previewing webpage changes, always check the **mobile** site first.
+20. **Mobile-first approach** for Web page/application: When previewing webpage changes, always check the **mobile** site first.
 
-20. EXPLAIN that the new Microsoft Edge browser is essentially Chromium, the base of Google Chrome. There is little point conducting unit tests with the browser.
+21. EXPLAIN that the new Microsoft Edge browser is essentially Chromium, the base of Google Chrome. There is little point conducting unit tests with the browser.
 
 ## Yet... Technicalities are NOT the Most Important!
 Just be proper:
