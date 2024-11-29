@@ -49,7 +49,7 @@ res.headers['Content-Type'] = 'application/problem+json'
 res.headers['Content-Language'] = 'en'
 return res
 ```
-7. Public-facing error messages: If you follow Always include telephone number, email, (and office hours) of the technical support team. Ideally the customer can click on a button to email the internal error (`traceId` field in RFC 9457 HTTP response) to technical support.
+7. Public-facing error messages: Always include telephone number, email, (and office hours) of the technical support team. Ideally the customer can click on a button to email the internal error (`traceId` field in **RFC 9457 HTTP response**) to technical support.
 
 8. Prevent duplicate requests (very common: NOT only caused by double clicks, but also refreshes, return to previous pages, and browser behaviour etc.): It should be handled both on the front end and back end. While you should always disable a button immediately after clicking it, the server should handle duplicate requests as well.
 
