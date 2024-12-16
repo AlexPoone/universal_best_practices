@@ -30,24 +30,126 @@ We must have strong conviction. Freedom must be forced: Impose strict management
 
 ### Error handling
 6. **[RFC 9457](https://datatracker.ietf.org/doc/rfc9457/)**: Use the standard, troubleshoot-able format for all HTTP responses. The more verbose the better, but without the compromise of security:
-```python3
-from flask import make_response
+```rust
+use actix_web::{web, App, HttpResponse, HttpServer, Responder};
+use serde::{Deserialize, Serialize};
+use uuid::Uuid;
 
-res = make_response({
-  "type": "https://example.com/errors/out-of-credit",
-  "title": "You do not have enough credit.",
-  "status": 403,
-  "detail": "Your current balance is 30, but that costs 50.",
-  "instance": "/account/12345",
-  "traceId": "acbd0001-7b8e-4e81-9d6b-3e34ce7c9a9e", # optional field, but highly recommended!! Internal Error ID goes here!!
-  "balance": 30, # additional information
-  "cost": 50 # additional information
-})    # here you could use make_response(render_template(...)) too
+#[derive(Serialize, Deserialize)]
+struct InputData {
+    name: String,
+    age: Option<u32>, // Age is optional for demonstration purposes
+}
 
-res.headers['Access-Control-Allow-Origin'] = '*'
-res.headers['Content-Type'] = 'application/problem+json'
-res.headers['Content-Language'] = 'en'
-return res
+#[derive(Serialize)]
+struct ResponseData {
+    message: String,
+    received_data: Option<InputData>,
+}
+
+#[derive(Serialize)]
+struct ProblemDetails {
+    #[serde(rename = "type")]
+    problem_type: String,
+    title: String,
+    status: u16,
+    detail: String,
+    instance: String,
+    trace_id: Option<String>, // Optional field
+    balance: Option<u32>,      // Additional information
+    cost: Option<u32>,         // Additional information
+}
+
+// Handler for the POST request
+async fn post_data(item: web::Json<InputData>) -> impl Responder {
+    let cost: u32 = 50; // Example cost
+    let current_balance: u32 = 30; // Example current balance
+    let trace_id = Uuid::new_v4().to_string(); // Generate a unique trace ID
+
+    // Validate input data
+    if let Some(age) = item.age {
+        if age < 0 || age > 120 {
+            // Return error response if age is invalid
+            let problem_details = ProblemDetails {
+                problem_type: "https://example.com/errors/invalid-age".to_string(),
+                title: "Invalid age provided.".to_string(),
+                status: 400,
+                detail: "Age must be between 0 and 120.".to_string(),
+                instance: "/post_data".to_string(),
+                trace_id: Some(trace_id),
+                balance: None,
+                cost: None,
+            };
+            return HttpResponse::BadRequest()
+                .header("Content-Type", "application/problem+json")
+                .header("Access-Control-Allow-Origin", "*")
+                .header("Content-Language", "en")
+                .json(problem_details);
+        }
+    } else {
+        // Return error response if age is not provided
+        let problem_details = ProblemDetails {
+            problem_type: "https://example.com/errors/missing-age".to_string(),
+            title: "Age is required.".to_string(),
+            status: 400,
+            detail: "Age is a required field.".to_string(),
+            instance: "/post_data".to_string(),
+            trace_id: Some(trace_id),
+            balance: None,
+            cost: None,
+        };
+        return HttpResponse::BadRequest()
+            .header("Content-Type", "application/problem+json")
+            .header("Access-Control-Allow-Origin", "*")
+            .header("Content-Language", "en")
+            .json(problem_details);
+    }
+
+    // Business logic example (check credits)
+    if current_balance < cost {
+        // Return error response for insufficient credits
+        let problem_details = ProblemDetails {
+            problem_type: "https://example.com/errors/out-of-credit".to_string(),
+            title: "You do not have enough credit.".to_string(),
+            status: 403,
+            detail: format!(
+                "Your current balance is {}, but that costs {}.",
+                current_balance, cost
+            ),
+            instance: "/account/12345".to_string(),
+            trace_id: Some(trace_id),
+            balance: Some(current_balance),
+            cost: Some(cost),
+        };
+        return HttpResponse::Forbidden()
+            .header("Content-Type", "application/problem+json")
+            .header("Access-Control-Allow-Origin", "*")
+            .header("Content-Language", "en")
+            .json(problem_details);
+    }
+
+    // Create the success response data
+    let response = ResponseData {
+        message: "Data received successfully".to_string(),
+        received_data: Some(item.into_inner()),
+    };
+
+    // Return the success response with a 200 OK status
+    HttpResponse::Ok()
+        .header("Content-Type", "application/json")
+        .json(response)
+}
+
+#[actix_web::main]
+async fn main() -> std::io::Result<()> {
+    HttpServer::new(|| {
+        App::new()
+            .route("/post_data", web::post().to(post_data))
+    })
+    .bind("127.0.0.1:8080")?
+    .run()
+    .await
+}
 ```
 7. Public-facing error messages: Always include telephone number, email, (and office hours) of the technical support team. Ideally the customer can click on a button to email the internal error (`traceId` field in **RFC 9457 HTTP response**) to technical support.
 
