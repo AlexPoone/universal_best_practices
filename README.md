@@ -29,7 +29,7 @@ We must have strong conviction. Freedom must be forced: Impose strict management
 5. **API testing**: NEVER use ~~curl~~ or ~~Postman~~ (obsolete tools), for [many obvious reasons, security and "Don't Repeat Yourself" just being two of them](https://peciel.com/blog/2024/10/01/why-you-should-never-ever-use-postman). ALWAYS use an **OpenAPI generator** from function comments. For the interface, [Redoc](https://github.com/Redocly/redoc) is good for operations personnel, while [Scalar](https://github.com/scalar/scalar) is good for developers (it provides code snippets for making the sample request in multiple libraries in various languages).
 
 ### Error handling
-6. **[RFC 9457](https://datatracker.ietf.org/doc/rfc9457/)**: Use the standard, troubleshoot-able format for all HTTP responses. The more verbose the better, but without the compromise of security:
+6. **[RFC 9457](https://datatracker.ietf.org/doc/rfc9457/)**: Use the standard, troubleshoot-able format for all HTTP responses. The more verbose the better, but without the compromise of security. Here is an actix_web (Rust) example:
 ```rust
 use actix_web::{web, App, HttpResponse, HttpServer, Responder};
 use serde::{Deserialize, Serialize};
