@@ -31,20 +31,20 @@ We must have strong conviction. Freedom must be forced: Impose strict management
 ### Error handling
 6. **[RFC 9457](https://datatracker.ietf.org/doc/rfc9457/)**: Use the standard, troubleshoot-able format for all HTTP responses. The more verbose the better, but without the compromise of security. Here is an actix_web (Rust) example:
 ```rust
-use actix_web::{web, App, HttpResponse, HttpServer, Responder};
+use actix_web::{web, App, HttpResponse, HttpServer, Responder, Error};
 use serde::{Deserialize, Serialize};
 use uuid::Uuid;
 
 #[derive(Serialize, Deserialize)]
 struct InputData {
     name: String,
-    age: Option<u32>, // Age is optional for demonstration purposes
+    age: u32, // Age is a required field
 }
 
 #[derive(Serialize)]
 struct ResponseData {
     message: String,
-    received_data: Option<InputData>,
+    received_data: InputData,
 }
 
 #[derive(Serialize)]
@@ -55,9 +55,31 @@ struct ProblemDetails {
     status: u16,
     detail: String,
     instance: String,
-    trace_id: Option<String>, // Optional field
-    balance: Option<u32>,      // Additional information
-    cost: Option<u32>,         // Additional information
+    trace_id: Option<String>, // Optional field for tracing
+    balance: Option<u32>,      // Additional information (if applicable)
+    cost: Option<u32>,         // Additional information (if applicable)
+}
+
+// Custom error handler
+async fn custom_error_handler(err: Error) -> HttpResponse {
+    // Log the error or handle it according to your needs
+    println!("Error occurred: {:?}", err);
+
+    // Return a 400 Bad Request with a custom problem details response
+    let problem_details = ProblemDetails {
+        problem_type: "https://example.com/errors/missing-field".to_string(),
+        title: "Missing required field.".to_string(),
+        status: 400,
+        detail: "One or more required fields are missing.".to_string(),
+        instance: "/post_data".to_string(),
+        trace_id: Some(Uuid::new_v4().to_string()), // Generate a new trace id for the error
+        balance: None,
+        cost: None,
+    };
+
+    HttpResponse::BadRequest()
+        .header("Content-Type", "application/problem+json")
+        .json(problem_details)
 }
 
 // Handler for the POST request
@@ -66,33 +88,14 @@ async fn post_data(item: web::Json<InputData>) -> impl Responder {
     let current_balance: u32 = 30; // Example current balance
     let trace_id = Uuid::new_v4().to_string(); // Generate a unique trace ID
 
-    // Validate input data
-    if let Some(age) = item.age {
-        if age < 0 || age > 120 {
-            // Return error response if age is invalid
-            let problem_details = ProblemDetails {
-                problem_type: "https://example.com/errors/invalid-age".to_string(),
-                title: "Invalid age provided.".to_string(),
-                status: 400,
-                detail: "Age must be between 0 and 120.".to_string(),
-                instance: "/post_data".to_string(),
-                trace_id: Some(trace_id),
-                balance: None,
-                cost: None,
-            };
-            return HttpResponse::BadRequest()
-                .header("Content-Type", "application/problem+json")
-                .header("Access-Control-Allow-Origin", "*")
-                .header("Content-Language", "en")
-                .json(problem_details);
-        }
-    } else {
-        // Return error response if age is not provided
+    // Validate input data (age validation since it's required)
+    if item.age < 0 || item.age > 120 {
+        // Return error response if age is invalid
         let problem_details = ProblemDetails {
-            problem_type: "https://example.com/errors/missing-age".to_string(),
-            title: "Age is required.".to_string(),
+            problem_type: "https://example.com/errors/invalid-age".to_string(),
+            title: "Invalid age provided.".to_string(),
             status: 400,
-            detail: "Age is a required field.".to_string(),
+            detail: "Age must be between 0 and 120.".to_string(),
             instance: "/post_data".to_string(),
             trace_id: Some(trace_id),
             balance: None,
@@ -105,7 +108,7 @@ async fn post_data(item: web::Json<InputData>) -> impl Responder {
             .json(problem_details);
     }
 
-    // Business logic example (check credits)
+    // Check available balance against cost
     if current_balance < cost {
         // Return error response for insufficient credits
         let problem_details = ProblemDetails {
@@ -131,7 +134,7 @@ async fn post_data(item: web::Json<InputData>) -> impl Responder {
     // Create the success response data
     let response = ResponseData {
         message: "Data received successfully".to_string(),
-        received_data: Some(item.into_inner()),
+        received_data: item.into_inner(),
     };
 
     // Return the success response with a 200 OK status
@@ -145,6 +148,8 @@ async fn main() -> std::io::Result<()> {
     HttpServer::new(|| {
         App::new()
             .route("/post_data", web::post().to(post_data))
+            // Add custom error handling here if needed
+            .default_service(web::route().to(custom_error_handler)) 
     })
     .bind("127.0.0.1:8080")?
     .run()
