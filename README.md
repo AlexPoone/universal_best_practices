@@ -11,7 +11,7 @@ The jobs available in the city I was born in are mostly supportive or secondary 
 
 Alas, it was a simpler world decades ago, and those individuals undeservedly attained their positions solely by seniority rather than merit. These nouveau riche profited from the aftermath of the Cold War. We refer to them as "die-gwen-yow" (大滾友), literally "big-roll guy" (as in "this is how we roll"); "chong-low" (廠佬), literally "factory guy" in Cantonese; or "bong-yow" (磅友), roughly "someone who pretends to help"; all of which have no particularly good translations.
 
-This sort of governance will only make the originially hard-working colleagues "tong-ping" (躺平) - figaratively "lying flat", becoming fatalist and cynical.
+This sort of governance will only make the originally hard-working colleagues "tong-ping" (躺平) - figaratively "lying flat", becoming fatalist and cynical.
 
 We must have strong conviction. Freedom must be forced: Impose strict management principles so that you can increase the autonomy of colleagues. Of course, the enforcers should adhere to these principles fully as well.
 
