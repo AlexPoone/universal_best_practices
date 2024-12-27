@@ -194,7 +194,7 @@ Just be proper:
 2. ALWAYS talk slowly (and softly). NEVER talk fast. Fast talkers, especially at the workplace, not only lead to misunderstanding, but also gives an impression of being an idiot. The Irish poet talked very slowly on the Japanese show has left a deep impression on me. A famous commentator and English pedagogue from the city I was born in also noted that the missionaries who taught him English talked slowly, such that he understood most of what he was speeking, which gave him much confidence.
 3. ALWAYS smile and give eye contact.
 4. ALWAYS remember the names of your colleagues.
-5. Keep the workplace clean and dust-free. This leaves a good impression.
+5. Personal hygiene: Keep the workplace clean and dust-free. This leaves a good impression. Don't cough in front of people.
 6. NEVER speak a word of profanity, including a minced oath.
 
 <!-- Red flags -->
