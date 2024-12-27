@@ -196,6 +196,7 @@ Just be proper:
 4. ALWAYS remember the names of your colleagues.
 5. Personal hygiene: Keep the workplace clean and dust-free. This leaves a good impression. Don't cough in front of people.
 6. NEVER speak a word of profanity, including a minced oath.
+7. Appreciate your colleagues.
 
 <!-- Red flags -->
 <!-- Secure payment -->
