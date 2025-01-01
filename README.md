@@ -7,7 +7,7 @@ This is a set of tenets we'll never compromise on.
 ### Preamble
 <!-- As the saying goes, **"familiarity breeds contempt."** Most companies are rotten to the core, especially in the city known as a "place solely for commuting, as opposed to working," where I was (unfortunately) born. -->
 
-The jobs available in the city I was born in are mostly supportive or secondary roles. Yet, people often get into trouble with typical and simple tasks. The cause is not that the department is underfunded; it is always the HUMAN FACTOR.
+The jobs available in the city I was born in are mostly supportive or secondary roles. Yet, people often get into trouble with typical and simple tasks. The cause is not that the department is underfunded; it is always the ***DON'T-CARE ATTITUDE and LACK OF COMMON SENSE***.
 
 Alas, it was a simpler world decades ago, and those individuals undeservedly attained their positions solely by seniority rather than merit. These nouveau riche profited from the aftermath of the Cold War. We refer to them as "die-gwen-yow" (大滾友), literally "big-roll guy" (as in "this is how we roll") in Cantonese; "chong-low" (廠佬), literally "factory guy"; or "bong-yow" (磅友), roughly "someone who pretends to help"; all of which have no particularly good translations. There are no tech industry there but THREE(!) archetypal Potemkin "science" villages.
 
