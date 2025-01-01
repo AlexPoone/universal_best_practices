@@ -16,6 +16,9 @@ This sort of ***problematic governance*** will only lead to once hardworking col
 We must have strong conviction. Freedom must be forced: Impose strict management principles so that you can increase the autonomy of colleagues. Of course, the enforcers should adhere to these principles fully as well.
 
 ### First things first
+> If a workman wishes to do a good job, he must first sharpen his tools.
+> 
+> -- ancient proverb
 1. Set Up Automatic Backup for Everything
     * A service (Windows) or daemon (Unix-like) is the best way to do this. It doesn't matter if the service was originally a daemon; you can always easily wrap an executable using something like `forever`.
 2. Set Up Version Control (I know this sounds ridiculous, but I've recently encountered some firms that don't use it in 2024—goodness me!)
