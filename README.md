@@ -193,6 +193,8 @@ async fn main() -> std::io::Result<()> {
 
 22. EXPLAIN that the new Microsoft Edge browser is essentially Chromium, the base of Google Chrome. There is little point repeating unit tests if you have done them on Chrome.
 
+23. SQL Injection attacks: security should be offensive, not just defensive. There are many platform-agnostic tools available like [Sqlmap](https://en.wikipedia.org/wiki/Sqlmap).
+
 ## Yet... Technicalities are NOT the Most Important!
 Just be proper:
 1. ALWAYS introduce yourself, shares your GitHub account and ask the colleauge to follow you, follows him/her back.
