@@ -194,7 +194,7 @@ async fn main() -> std::io::Result<()> {
 ## Yet... Technicalities are NOT the Most Important!
 Just be proper:
 1. ALWAYS introduce yourself, shares your GitHub account and ask the colleauge to follow you, follows him/her back.
-2. ALWAYS talk slowly (and softly). NEVER talk fast. Fast talkers, especially at the workplace, not only lead to misunderstanding, but also gives an impression of being an idiot. The Irish poet Peter MacMillan spoke slow and lucid English on a Japanese television show made a lasting impression on me. A famous commentator and English pedagogue from the city I was born in also observed that the American missionaries who taught him English spoke slowly, enabling him to understand most of what was said, which greatly boosted his confidence in speaking English.
+2. ALWAYS talk slowly (and softly). NEVER talk fast. Fast talkers, especially at the workplace, not only lead to misunderstanding, but also gives an impression of being an idiot. The Irish poet Peter MacMillan spoke slow and lucid English on a Japanese television show, which made a lasting impression on me. A famous commentator and English pedagogue from the city I was born in also observed that the American missionaries who taught him English spoke slowly, enabling him to understand most of what was said, which greatly boosted his confidence in speaking English.
 3. ALWAYS smile and give eye contact.
 4. ALWAYS remember the names of your colleagues.
 5. Personal hygiene: Keep the workplace clean and dust-free. This leaves a good impression. Don't cough in front of people.
