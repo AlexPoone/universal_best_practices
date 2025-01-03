@@ -17,7 +17,7 @@ This sort of ***problematic governance*** will only lead to once hardworking col
 
 We must have strong conviction. Freedom must be forced: Impose strict management principles so that you can increase the autonomy of colleagues. Of course, the enforcers should adhere to these principles fully as well.
 
-For good developers, remember to ***READ THE MANAGER BEFORE THE COMPANY***!
+To good developers, remember to ***READ THE MANAGER BEFORE THE COMPANY***!
 
 ### First things first
 > If a workman wishes to do a good job, he must first sharpen his tools.
