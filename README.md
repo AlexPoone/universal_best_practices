@@ -2,7 +2,7 @@
 
 ## C R E D O
 
-This is a set of tenets we'll never compromise on.
+This is a set of tenets that we devs will never compromise on.
 
 ### Preamble
 <!-- As the saying goes, **"familiarity breeds contempt."** Most companies are rotten to the core, especially in the city known as a "place solely for commuting, as opposed to working," where I was (unfortunately) born. -->
