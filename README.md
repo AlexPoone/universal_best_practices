@@ -209,7 +209,7 @@ Let's see what netizens have to say:
 >
 > "The frustrations of the people are definitely a factor but people have been acting this way long before five years ago."
 >
-> "_ _ is a s\*\*t\*\*\*e place. Do not go there especially if you don't speak their language or if you have small kids. The locals are rude and try to heat whenever they can. They have no integrity, morale, compassion; they do not know how to smile; there is no such thing as courtesy; they hate their jobs and their lives."
+> "_ _ is a s\*\*t\*\*\*e place. Do not go there especially if you don't speak their language or if you have small kids. The locals are rude and try to cheat whenever they can. They have no integrity, morale, compassion; they do not know how to smile; there is no such thing as courtesy; they hate their jobs and their lives."
 >
 > "One topic was always brought up, no matter who I spoke to, _ _ are rude -- downright rude."
 >
