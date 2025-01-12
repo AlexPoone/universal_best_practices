@@ -203,7 +203,7 @@ It is easy to avoid being rude, yet [[3]](https://www.reddit.com/r/HongKong/comm
 2. ALWAYS greet your colleagues, at least say "morning'" and 'see ya'.
 3. ALWAYS talk slowly (and softly). NEVER talk fast. Fast talkers, especially at the workplace, not only lead to misunderstanding, but also gives an impression of being an idiot. The Irish poet Peter MacMillan spoke slow and lucid English on a Japanese television show, which made a lasting impression on me. A famous commentator and English pedagogue from the city I was born in also observed that the American missionaries who taught him English spoke slowly, enabling him to understand most of what was said, which greatly boosted his confidence in speaking English.
 4. ALWAYS smile and give eye contact.
-5. ALWAYS remember the names of your colleagues.
+5. ALWAYS remember the names of your colleagues and strive to spell their names correctly.
 6. Personal hygiene: Keep the workplace clean and dust-free. This leaves a good impression. Don't cough in front of people.
 7. NEVER speak a word of profanity, including a minced oath.
 8. NEVER speak from the throat.
