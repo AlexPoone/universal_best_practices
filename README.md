@@ -20,7 +20,7 @@ We must have strong conviction. Freedom must be forced: Impose strict management
 To good developers, remember to ***READ THE MANAGER BEFORE THE COMPANY***!
 
 ### First things first
-0. Always do a quick web search before making an assertion. One 'die-gwen-yow' even insisted that 'amd64' was a mistake since the processor is an Intel. *\*sigh\** (It is a specification. Builds for the 64-bit platform, no matter the processor is Intel and AMD, are called 'amd64'. This is because the original specification was created by AMD and released in 2000.)
+0. ***Always do a quick web search before making an assertion.*** One 'die-gwen-yow' even insisted that 'amd64' was a mistake since the processor is an Intel. *\*sigh\** (It is a specification. Builds for the 64-bit platform, no matter the processor is Intel and AMD, are called 'amd64'. This is because the original specification was created by AMD and released in 2000.)
 
 > If a workman wishes to do a good job, he must first sharpen his tools.
 > 
