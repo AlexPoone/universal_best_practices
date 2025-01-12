@@ -217,6 +217,8 @@ Let's see what netizens have to say:
 >
 > "We can't even get along with ourselves."
 
+How can the people from that city be efficient leaders? The servant leadership movement asserts that leaders have a duty to focus primarily on meeting their subordinates' needs. When a colleague has low job satisfaction, how can she/he be productive?
+
 Just be proper:
 1. ALWAYS introduce yourself, shares your GitHub account and ask the colleauge to follow you, follows him/her back.
 2. ALWAYS greet your colleagues, at least say "morning'" and 'see ya'.
