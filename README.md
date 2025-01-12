@@ -215,7 +215,7 @@ Let's see what netizens have to say:
 >
 > "I don't hate _ _ anymore, I just pity. Something needs to be done to save the poor people in _ _. And someone needs to do it".
 >
-> "The rudeness has nothing to do with the high cost of living and business, as talent and hard work mean nothing in front of systematic class consolidation."
+> "The rudeness has nothing to do with the cost of living and business, as talent and hard work mean nothing in front of systematic class consolidation."
 >
 > "We can't even get along with ourselves."
 
