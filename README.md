@@ -11,9 +11,9 @@ The jobs available in the city I was born in are mostly supportive or secondary 
 
 Alas, it was a simpler world decades ago, and those individuals undeservedly attained their positions solely by seniority rather than merit. These nouveau riche people, profited from the aftermath of the Cold War, are ignorant of international best practices and show no interest in learning them. We refer to them as "die-gwen-yow" (大滾友), literally "big-roll guy" (as in "this is how we roll", "stealing a living") in Cantonese; "chong-low" (廠佬), literally "factory guy"; or "bong-yow" (磅友), roughly "someone who pretends to help"; all of which have no particularly good translations. No tech industry exists there but THREE(!) archetypal Potemkin "science" villages.
 
-Can you imagine, a company I worked for briefly failed at every single point outlined below? You see, when I tried to protest privately, it was in vain; when I protested publicly, I was seen as "backstabbing". When something finally failed, because of their "loyalty" to the firm and ignorance of laymen, those "die-gwen-yow"s did not need to be held accountable.
+Can you imagine, a company I worked for briefly failed at every single point outlined below? You see, when I tried to protest privately, it was in vain; when I protested publicly, I was seen as 'backstabbing'. When something finally failed, because of their 'loyalty' to the firm and ignorance of laymen, those 'die-gwen-yow's did not need to be held accountable.
 
-This sort of ***problematic governance*** will only lead to once hardworking colleagues adopting a "lying flat" ("tong-ping", 躺平) mentality, becoming fatalistic and cynical. <!-- I realised my days were numbered as the city faced a brain drain. Ultimately, I decided to leave for good, despite having spent nearly three decades growing up and studying in that degenerate place. --> 
+This sort of ***problematic governance*** will only lead to once hardworking colleagues adopting a 'lying flat' ('tong-ping', 躺平) mentality, becoming fatalistic and cynical. <!-- I realised my days were numbered as the city faced a brain drain. Ultimately, I decided to leave for good, despite having spent nearly three decades growing up and studying in that degenerate place. --> 
 
 We must have strong conviction. Freedom must be forced: Impose strict management principles so that you can increase the autonomy of colleagues. Of course, the enforcers should adhere to these principles fully as well.
 
@@ -25,7 +25,7 @@ To good developers, remember to ***READ THE MANAGER BEFORE THE COMPANY***! One "
 > -- ancient proverb
 1. Set Up Automatic Backup for Everything
     * A service (Windows) or daemon (Unix-like) is the best way to do this. It doesn't matter if the service was originally a daemon; you can always easily wrap an executable using something like `forever`.
-2. Set Up Version Control (I know this sounds ridiculous, but I've recently encountered some firms that don't use it in 2024—goodness me!)
+2. Set Up Version Control (I know this sounds ridiculous, but I've recently encountered some firms that don't use it in 2024—goodness me!) [[1]](https://www.reddit.com/r/csharp/comments/1ey6ggq/how_big_a_red_flag_is_it_for_a_company_not_to_use/) [[2]](https://www.reddit.com/r/csharp/comments/1ey6ggq/comment/ljblju9/)
     * Use version control for EVERYTHING, including **DATABASE CHANGES, CONFIGURATION CHANGES, AND NETWORK CHANGES**.
     * At a minimum, create one working branch for each working unit, one for each version, and one master branch.
     * EDUCATE colleagues on how branches work, what the commands do, what `.gitignore` does, the file size limit (if there is any), and the remedies when a colleague uses it incorrectly.
