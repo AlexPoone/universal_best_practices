@@ -24,7 +24,7 @@ One 'die-gwen-yow' even insisted that 'amd64' was a mistake since the processor 
 ### First things first
 > If a workman wishes to do a good job, he must first sharpen his tools.
 > 
-> -- ancient proverb
+> – ancient proverb
 1. Set Up Automatic Backup for Everything
     * A service (Windows) or daemon (Unix-like) is the best way to do this. It doesn't matter if the service was originally a daemon; you can always easily wrap an executable using something like `forever`.
 2. Set Up Version Control (I know this sounds ridiculous, but I've recently encountered some firms that don't use it in 2024—goodness me!) [[2]](https://www.reddit.com/r/csharp/comments/1ey6ggq/how_big_a_red_flag_is_it_for_a_company_not_to_use/) [[3]](https://www.reddit.com/r/csharp/comments/1ey6ggq/comment/ljblju9/)
@@ -202,18 +202,18 @@ async fn main() -> std::io::Result<()> {
 ## Yet... Technicalities are NOT the Most Important!
 It is effortless to avoid being rude, yet the city disappointed me... [[4]](https://www.reddit.com/r/HongKong/comments/1fo0b0r/comment/lomc4zk/)[[5]](https://geoexpat.com/forum/26/thread190305.html)[[6]](https://www.youtube.com/watch?v=CKr0soIf4jA)[[7]](https://www.quora.com/Are-Hong-Kong-people-rude)[[8]](https://www.quora.com/Why-are-people-so-rude-and-grumpy-in-Hong-Kong-like-they-hate-you-without-even-knowing-you)[[9]](https://www.quora.com/What-is-your-opinion-on-people-from-Hong-Kong-Why-do-you-feel-this-way)[[10]](https://www.quora.com/Are-the-people-of-Hong-Kong-rude-I-often-have-a-poor-experience-when-I-visit-Hong-Kong-Do-others-have-the-same-experience)[[11]](https://news.ycombinator.com/item?id=15772797) And yes, ***the rudeness is contagious*** since us human beings learn by imitating our peers.
 
-Let's see what international netizens have to say about the city. I don't agree entirely, but as the saying goes, 'many a true word is spoken in jest':
+Let's see what international netizens have to say about the city. ***I don't agree entirely***, but as the saying goes, 'many a true word is spoken in jest':
 > "The sternest look (that would put Severus Snape to shame)."
 >
 > "It's just generally not a happy place. Don't take it personally."
 >
-> "That was my experience too. Everyone looks sooo unhappy - even by the standards of a big city. And I'm from London!"
+> "That was my experience too. Everyone looks sooo unhappy – even by the standards of a big city. And I'm from London!"
 >
 > "The frustrations of the people are definitely a factor but people have been acting this way long before five years ago."
 >
 > "_ _ is a s\*\*t\*\*\*e place. Do not go there especially if you don't speak their language or if you have small kids. The locals are rude and try to cheat whenever they can. They have no integrity, morale, compassion; they do not know how to smile; there is no such thing as courtesy; they hate their jobs and their lives."
 >
-> "One topic was always brought up no matter who I spoke to,  _ _ are rude -- downright rude."
+> "One topic was always brought up no matter who I spoke to,  _ _ are rude – downright rude."
 >
 > "I don't hate _ _ anymore, I just pity. Something needs to be done to save the poor people in _ _. And someone needs to do it".
 >
