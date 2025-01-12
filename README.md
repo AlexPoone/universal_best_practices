@@ -202,7 +202,7 @@ async fn main() -> std::io::Result<()> {
 ## Yet... Technicalities are NOT the Most Important!
 It is effortless to avoid being rude, yet the city disappointed me... [[4]](https://www.reddit.com/r/HongKong/comments/1fo0b0r/comment/lomc4zk/)[[5]](https://geoexpat.com/forum/26/thread190305.html)[[6]](https://www.youtube.com/watch?v=CKr0soIf4jA)[[7]](https://www.quora.com/Are-Hong-Kong-people-rude)[[8]](https://www.quora.com/Why-are-people-so-rude-and-grumpy-in-Hong-Kong-like-they-hate-you-without-even-knowing-you)[[9]](https://www.quora.com/What-is-your-opinion-on-people-from-Hong-Kong-Why-do-you-feel-this-way)[[10]](https://www.quora.com/Are-the-people-of-Hong-Kong-rude-I-often-have-a-poor-experience-when-I-visit-Hong-Kong-Do-others-have-the-same-experience)[[11]](https://news.ycombinator.com/item?id=15772797) And yes, ***the rudeness is contagious*** since us human beings learn by imitating our peers.
 
-Let's see what netizens have to say about the city. I don't agree with all of them, but as the saying goes, 'many a true word is spoken in jest':
+Let's see what netizens have to say about the city. I don't agree entirely, but as the saying goes, 'many a true word is spoken in jest':
 > "The sternest look (that would put Severus Snape to shame)."
 >
 > "It's just generally not a happy place. Don't take it personally."
