@@ -219,7 +219,7 @@ Let's see what netizens have to say:
 >
 > "We can't even get along with ourselves."
 
-How can that wannabe business hub become a real one, when most people adopt that attitude?
+How can that wannabe business hub become a real one, when most people have adopted that attitude?
 
 And how can people from that city be efficient leaders? The servant leadership movement asserts that leaders have a duty to focus ***primarily*** on their subordinates' well-being. When a colleague has low job satisfaction, how can she/he be productive?
 
