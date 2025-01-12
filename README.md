@@ -28,7 +28,7 @@ To good developers, remember to ***READ THE MANAGER BEFORE THE COMPANY***! One '
 2. Set Up Version Control (I know this sounds ridiculous, but I've recently encountered some firms that don't use it in 2024—goodness me!) [[1]](https://www.reddit.com/r/csharp/comments/1ey6ggq/how_big_a_red_flag_is_it_for_a_company_not_to_use/) [[2]](https://www.reddit.com/r/csharp/comments/1ey6ggq/comment/ljblju9/)
     * Use version control for EVERYTHING, including **DATABASE CHANGES, CONFIGURATION CHANGES, AND NETWORK CHANGES**.
     * At a minimum, create one working branch for each working unit, one for each version, and one master branch.
-    * Teach colleagues on how branches work, what the commands do, what `.gitignore` does, the file size limit (if there is any), and the remedies when a colleague uses it incorrectly.
+    * Teach colleagues on how Git branches work, what the commands do, what `.gitignore` does, the file size limit (if there is any), and the remedies when a colleague uses it incorrectly.
     * Use [monorepos](https://en.wikipedia.org/wiki/Monorepo) to ease code reuse.
 3. Set Up an Issue Tracking System
     * Never use a spreadsheet for this. (Spreadsheets may have privacy and access control issues; the file will become extremely large; there is a lack of data control; and there are limited analytical tools available...)
