@@ -198,15 +198,16 @@ async fn main() -> std::io::Result<()> {
 23. SQL Injection attacks: security should be offensive, not just defensive. There are many platform-agnostic tools available like [Sqlmap](https://en.wikipedia.org/wiki/Sqlmap).
 
 ## Yet... Technicalities are NOT the Most Important!
-Just be proper:
+It is easy to avoid being rude, yet [[3]](https://www.reddit.com/r/HongKong/comments/1fo0b0r/being_in_hong_kong_makes_me_an_angry_person/)[[4]](https://geoexpat.com/forum/26/thread190305.html)[[5]](https://www.quora.com/Are-Hong-Kong-people-rude)[[6]](https://www.quora.com/Why-are-people-so-rude-and-grumpy-in-Hong-Kong-like-they-hate-you-without-even-knowing-you)[[7]](https://www.quora.com/What-is-your-opinion-on-people-from-Hong-Kong-Why-do-you-feel-this-way)[[8]](https://www.quora.com/Are-the-people-of-Hong-Kong-rude-I-often-have-a-poor-experience-when-I-visit-Hong-Kong-Do-others-have-the-same-experience)... Just be proper:
 1. ALWAYS introduce yourself, shares your GitHub account and ask the colleauge to follow you, follows him/her back.
-2. ALWAYS talk slowly (and softly). NEVER talk fast. Fast talkers, especially at the workplace, not only lead to misunderstanding, but also gives an impression of being an idiot. The Irish poet Peter MacMillan spoke slow and lucid English on a Japanese television show, which made a lasting impression on me. A famous commentator and English pedagogue from the city I was born in also observed that the American missionaries who taught him English spoke slowly, enabling him to understand most of what was said, which greatly boosted his confidence in speaking English.
-3. ALWAYS smile and give eye contact.
-4. ALWAYS remember the names of your colleagues.
-5. Personal hygiene: Keep the workplace clean and dust-free. This leaves a good impression. Don't cough in front of people.
-6. NEVER speak a word of profanity, including a minced oath.
-7. NEVER speak from the throat.
-8. Appreciate your colleagues.
+2. ALWAYS greet your colleagues, at least say "morning'" and 'see ya'.
+3. ALWAYS talk slowly (and softly). NEVER talk fast. Fast talkers, especially at the workplace, not only lead to misunderstanding, but also gives an impression of being an idiot. The Irish poet Peter MacMillan spoke slow and lucid English on a Japanese television show, which made a lasting impression on me. A famous commentator and English pedagogue from the city I was born in also observed that the American missionaries who taught him English spoke slowly, enabling him to understand most of what was said, which greatly boosted his confidence in speaking English.
+4. ALWAYS smile and give eye contact.
+5. ALWAYS remember the names of your colleagues.
+6. Personal hygiene: Keep the workplace clean and dust-free. This leaves a good impression. Don't cough in front of people.
+7. NEVER speak a word of profanity, including a minced oath.
+8. NEVER speak from the throat.
+9. Appreciate your colleagues.
 
 <!-- Red flags -->
 <!-- Secure payment -->
