@@ -198,7 +198,24 @@ async fn main() -> std::io::Result<()> {
 23. SQL Injection attacks: security should be offensive, not just defensive. There are many platform-agnostic tools available like [Sqlmap](https://en.wikipedia.org/wiki/Sqlmap).
 
 ## Yet... Technicalities are NOT the Most Important!
-It is effortless to avoid being rude, yet the city disappointed me... [[3]](https://www.reddit.com/r/HongKong/comments/1fo0b0r/comment/lomc4zk/)[[4]](https://geoexpat.com/forum/26/thread190305.html)[[5]](https://www.quora.com/Are-Hong-Kong-people-rude)[[6]](https://www.quora.com/Why-are-people-so-rude-and-grumpy-in-Hong-Kong-like-they-hate-you-without-even-knowing-you)[[7]](https://www.quora.com/What-is-your-opinion-on-people-from-Hong-Kong-Why-do-you-feel-this-way)[[8]](https://www.quora.com/Are-the-people-of-Hong-Kong-rude-I-often-have-a-poor-experience-when-I-visit-Hong-Kong-Do-others-have-the-same-experience) And yes, the rudeness is contagious since us human beings learn by imitating our peers.
+It is effortless to avoid being rude, yet the city disappointed me... [[3]](https://www.reddit.com/r/HongKong/comments/1fo0b0r/comment/lomc4zk/)[[4]](https://geoexpat.com/forum/26/thread190305.html)[[5]](https://www.youtube.com/watch?v=CKr0soIf4jA)[[6]](https://www.quora.com/Are-Hong-Kong-people-rude)[[7]](https://www.quora.com/Why-are-people-so-rude-and-grumpy-in-Hong-Kong-like-they-hate-you-without-even-knowing-you)[[8]](https://www.quora.com/What-is-your-opinion-on-people-from-Hong-Kong-Why-do-you-feel-this-way)[[9]](https://www.quora.com/Are-the-people-of-Hong-Kong-rude-I-often-have-a-poor-experience-when-I-visit-Hong-Kong-Do-others-have-the-same-experience) And yes, the rudeness is contagious since us human beings learn by imitating our peers.
+
+Let's see what netizens have to say:
+> "The sternest look (that would put Severus Snape to shame)."
+>
+> "It's just generally not a happy place. Don't take it personally."
+>
+> "That was my experience too. Everyone looks sooo unhappy - even by the standards of a big city. And I'm from London!"
+>
+> "The frustrations of the people are definitely a factor but people have been acting this way long before five years ago."
+>
+> "_ _ is a s\*\*t\*\*\*e place. Do not go there especially if you don't speak their language or if you have small kids. The locals are rude and try to heat whenever they can. They have no integrity, morale, compassion; they do not know how to smile; there is no such thing as courtesy; they hate their jobs and their lives."
+>
+> "One topic was always brought up, no matter who I spoke to, _ _ are rude -- downright rude."
+>
+> "I don't hate _ _ anymore, I just pity. Something needs to be done to save the poor people in _ _. And someone needs to do it".
+>
+> "We can't even get along with ourselves."
 
 Just be proper:
 1. ALWAYS introduce yourself, shares your GitHub account and ask the colleauge to follow you, follows him/her back.
