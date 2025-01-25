@@ -178,24 +178,23 @@ async fn main() -> std::io::Result<()> {
 10. **Push notifications (cf. `push_notifications.vsdx`):** Explain what \*push\* notifications mean in the first place, as opposed to \*pull\* notifications. I have found that most people are confused by this distinction. Push notifications are ephemeral and should not be stored on servers, except for those that need to be resent due to an error. Instead, you should synchronize new notifications with old ones in local mobile storage. ALWAYS use a wrapper to encapsulate methods so that you can test them (both manually and automatically) before CI/CD.
 11. **[RFC 7009](https://datatracker.ietf.org/doc/rfc7009/)**: OAuth 2.0 Token Revocation.
 12. **[RFC 7519](https://datatracker.ietf.org/doc/rfc7519/)**: use JWT for everything confidential, like a log in session. These information must be encrypted beforehand. DON'T store them in `window.localStorage`, store it in Cookies with proper timeout.
-13. Build your own build tools, such that it is adapted to the use case.
-14. Eat your own dog food.
-15. For mobile applications, use a single code base (e.g., Flutter, React Native) when possible (Don't Repeat Yourself; also saves the effort of writing and maintaining code)
-16. **Atomic microservices**: Break tasks to microservices that do one thing only. Most of them should be reusable. Use an orchestration suite (there are lightweight ones like [Airflow](https://airflow.apache.org/) so it is unreasonable to complain about the extra work) for arrangement and error handling.
-17. **ISO 27001**: Use containerisation to isolate working sensitive data, such as server-side workflows using user sessions.
-18. **ISO 27001**: Remove data that are no longer been used. (We ensure this using metadata and an internal system.)
+13. Never use gibberish like Lorem Ipsum as placeholders. Better use something like 'This section is under maintenance.'
+14. Build your own build tools, such that it is adapted to the use case.
+15. Eat your own dog food.
+16. For mobile applications, use a single code base (e.g., Flutter, React Native) when possible (Don't Repeat Yourself; also saves the effort of writing and maintaining code)
+17. **Atomic microservices**: Break tasks to microservices that do one thing only. Most of them should be reusable. Use an orchestration suite (there are lightweight ones like [Airflow](https://airflow.apache.org/) so it is unreasonable to complain about the extra work) for arrangement and error handling.
+18. **ISO 27001**: Use containerisation to isolate working sensitive data, such as server-side workflows using user sessions.
+19. **ISO 27001**: Remove data that are no longer been used. (We ensure this using metadata and an internal system.)
 
 ### Dependencies
-
-19. Use battle-tested libraries, even if they are only slightly more efficient or consume less storage. Don’t rely on random projects by some Russian developer on GitHub that have only a dozen stars (in my case, even the last commit was made 12 years ago) for the supposed benefit of a millisecond performance increase. (Alas, this is a true story.) Always fork the library and keep it updated yourself.
+20. Use battle-tested libraries, even if they are only slightly more efficient or consume less storage. Don’t rely on random projects by some Russian developer on GitHub that have only a dozen stars (in my case, even the last commit was made 12 years ago) for the supposed benefit of a millisecond performance increase. (Alas, this is a true story.) Always fork the library and keep it updated yourself.
 
 ### Testing and deployment
+21. Spend most of your time writing unit tests, that can be used as a yardstick for a new release, especially as automatic tests before continuous integration/deployment (CI/CD).
 
-20. Spend most of your time writing unit tests, that can be used as a yardstick for a new release, especially as automatic tests before continuous integration/deployment (CI/CD).
+22. **Mobile-first approach** for Web page/application: When previewing webpage changes, always check the **mobile** site first.
 
-21. **Mobile-first approach** for Web page/application: When previewing webpage changes, always check the **mobile** site first.
-
-22. EXPLAIN that the new Microsoft Edge browser is essentially Chromium, the base of Google Chrome. There is little point repeating unit tests if you have done them on Chrome.
+23. EXPLAIN that the new Microsoft Edge browser is essentially Chromium, the base of Google Chrome. There is little point repeating unit tests if you have done them on Chrome.
 
 23. SQL Injection attacks: security should be offensive, not just defensive. There are many platform-agnostic tools available like [Sqlmap](https://en.wikipedia.org/wiki/Sqlmap).
 
