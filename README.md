@@ -245,4 +245,4 @@ There are even some peculiar companies which go to great lengths to talk about t
 
 The condescending waffle reminds me of the phrase 'zo kwe zo,' meaning 'all people are people' in the Sango language, which is the motto of the Central African Republic. This country is often referred to as a failed state and has the lowest GDP per capita (PPP) as reported by both the World Bank and the CIA. Failed states don't become so without underlying issues. This approach is the opposite of meritocracy, yet ironically, this company hails from Singapore, a nation that prides itself on its meritocratic principles.
 
-Corporate cults create their own terminology to make them look special.
+Corporate cults create their own terminology to make them look special and sophisticated. The firm even adopted foreign terms like the Finnish 'sisu' into their corporate lexicon, and encourage reading so-called self-help books. This is trite nonsense.
