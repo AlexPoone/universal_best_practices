@@ -238,7 +238,7 @@ Just be proper (also a 'note to self'):
 6. Personal hygiene: Keep the workplace clean and dust-free. This leaves a good impression. Don't cough in front of people.
 7. NEVER speak a word of profanity, including a minced oath.
 8. NEVER speak from the throat.
-9. Appreciate your colleagues.
+9. Appreciate your colleagues. Avoid being patronising though.
 
 ## 'Zo kwe zo'?
 There are even some peculiar companies which go to great lengths to talk about the company ethos. One firm states that 'they believe everybody has something that they were good at', which essentially translates to "cheer up, you're not useless". I find this motto very patronising. It suggests that the firm's interest lies in employing cheap labour without much concern for the quality of work produced, aka 'race to the bottom'.
