@@ -239,6 +239,7 @@ Just be proper (also a 'note to self'):
 7. NEVER speak a word of profanity, including a minced oath.
 8. NEVER speak from the throat.
 9. Appreciate your colleagues. Avoid being patronising though.
+10. NO office politics.
 
 ## 'Zo kwe zo'?
 There are even some bizarre companies which go to great lengths to talk about the company ethos. One company (where the boss is likely linked to Triads) stuck a full-length YouTube video in their online job listing just to push their nonsense.
