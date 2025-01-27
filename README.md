@@ -244,3 +244,5 @@ Just be proper (also a 'note to self'):
 There are even some peculiar companies which go to great lengths to talk about the company ethos. One firm states that 'they believe everybody has something that they were good at', which essentially translates to "cheer up, you're not useless". I find this motto very patronising. It suggests that their interest lies in employing low-skill labour without much concern for the quality of work produced.
 
 The condescending waffle reminds me of the phrase 'zo kwe zo,' meaning 'all people are people' in the Sango language, which is the motto of the Central African Republic. This country is often referred to as a failed state and has the lowest GDP per capita (PPP) as reported by both the World Bank and the CIA. Failed states don't become so without underlying issues. This approach is the opposite of meritocracy, yet ironically, this company hails from Singapore, a nation that prides itself on its meritocratic principles.
+
+Corporate cults create their own terminology to make them look special.
