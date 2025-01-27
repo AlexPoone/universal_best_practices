@@ -250,4 +250,4 @@ The condescending waffle reminds me of the phrase 'zo kwe zo', meaning 'all peop
 
 Corporate cults whip up their own fancy language to seem oh-so-special and sophisticated. The same firm made a convoluted diagram shaped like a car wheel to show off their ethos, threw in foreign terms like the Finnish 'sisu' (because, you know, we're totally still in a WWII scenario and 'perseverance' just isn't pretentious enough) into their corporate babble, and pushed reading those oh-so-enlightening self-help books. All this is just pointless nonsense, leaving colleagues to think, 'what on Earth'?
 
-# Guilty until proven?
+## Guilty until proven innocent?
