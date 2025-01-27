@@ -198,6 +198,9 @@ async fn main() -> std::io::Result<()> {
 
 23. SQL Injection attacks: security should be offensive, not just defensive. There are many platform-agnostic tools available like [Sqlmap](https://en.wikipedia.org/wiki/Sqlmap).
 
+<!-- Red flags -->
+<!-- Secure payment -->
+
 ## Yet... Technicalities are NOT the Most Important!
 It is effortless to avoid being rude, yet the city I was born in disappointed me... [[4]](https://www.reddit.com/r/HongKong/comments/1fo0b0r/comment/lomc4zk/)[[5]](https://geoexpat.com/forum/26/thread190305.html)[[6]](https://www.youtube.com/watch?v=CKr0soIf4jA)[[7]](https://www.quora.com/Are-Hong-Kong-people-rude)[[8]](https://www.quora.com/Why-are-people-so-rude-and-grumpy-in-Hong-Kong-like-they-hate-you-without-even-knowing-you)[[9]](https://www.quora.com/What-is-your-opinion-on-people-from-Hong-Kong-Why-do-you-feel-this-way)[[10]](https://www.quora.com/Are-the-people-of-Hong-Kong-rude-I-often-have-a-poor-experience-when-I-visit-Hong-Kong-Do-others-have-the-same-experience)[[11]](https://news.ycombinator.com/item?id=15772797) And yes, ***the rudeness is contagious*** since us human beings learn by imitating our peers.
 
@@ -237,5 +240,5 @@ Just be proper:
 8. NEVER speak from the throat.
 9. Appreciate your colleagues.
 
-<!-- Red flags -->
-<!-- Secure payment -->
+# 'Zo kwe zo'?
+There are even some peculiar companies which go to great lengths to talk about the company ethos. One firm states that 'they believe everybody has something that they were good at', which essentially translates to 'cheer up, you're not useless.' I find this motto very patronising. It appears their interest lies in employing low-skill labor without much concern for the quality of work produced. It reminds me of the phrase 'zo kwe zo,' meaning 'all people are people' in Sango, which is the motto of the Central African Republic. This country is often referred to as a failed state and has the lowest GDP per capita (PPP) as reported by both the World Bank and the CIA. This approach is the opposite of meritocracy, yet ironically, this company hails from Singapore, a nation that prides itself on its meritocratic principles.
