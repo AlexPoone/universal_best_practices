@@ -243,7 +243,7 @@ Just be proper (also a 'note to self'):
 11. 'Guilty until proven innocent' is a big no-no. Be merciful.
 
 ## 'Zo kwe zo'?
-There are even some bizarre companies which go to great lengths to talk about the company ethos. One company (where the boss is likely linked to Triads) stuck a full-length YouTube video in their online job listing just to push their nonsense.
+There are even some bizarre companies which go to great lengths to talk about the *company ethos*. One company (where the boss is likely linked to Triads) stuck a full-length YouTube video in their online job listing just to push their nonsense.
 
 Another company states that 'they believe everybody has something that they were good at', which essentially translates to "cheer up, you're not useless". I find this motto very patronising. It suggests that the firm's interest lies in employing cheap labour without much concern for the quality of work produced, aka 'racing to the bottom'.
 
