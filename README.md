@@ -239,7 +239,7 @@ Just be proper (also a 'note to self'):
 7. NEVER speak a word of profanity, including a minced oath.
 8. NEVER speak from the throat.
 9. Appreciate your colleagues. Avoid being patronising though.
-10. NO office politics.
+10. **NO office politics.**
 11. 'Guilty until proven innocent' is a big no-no. Be merciful.
 
 ## 'Zo kwe zo'?
