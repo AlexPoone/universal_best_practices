@@ -33,7 +33,7 @@ To good developers, remember to ***READ THE MANAGER BEFORE THE COMPANY***!
     * Teach colleagues on how Git branches work, what the commands do, what `.gitignore` does, the file size limit (if there is any), and the remedies when a colleague uses it incorrectly.
     * Use [monorepos](https://en.wikipedia.org/wiki/Monorepo) to ease code reuse.
 3. Set Up an Issue Tracking System
-    * Never use a spreadsheet for this. (Spreadsheets may have privacy and access control issues; the file will become extremely large; there is a lack of data control; and there are limited analytical tools available...)
+    * Never use a spreadsheet for this, including cloud-based ones like Office 365 and Google Sheets. (Spreadsheets may have privacy and access control issues; the file will become extremely large; there is a lack of data control; and there are limited analytical tools available...)
 
 ### Comments and documentation
 4. Line comment style: At least four spaces in front, format: `    // 20xx.xx.xx - Your name - What has been changed`
