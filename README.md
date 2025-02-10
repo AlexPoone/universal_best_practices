@@ -1,4 +1,4 @@
-This repo is intented to store some reusable standard routines, and hopefully some contingency plans when something goes wrong. I'll start working on it if I have time.
+This repo is intented to store some reusable standard routines, and hopefully some contingency plans when something goes wrong. I'll start working on it if I have time to keep myself busy.
 
 # The Principled Dev
 
