@@ -247,7 +247,7 @@ Just be proper (also a 'note to self'):
 ## 'Zo kwe zo'?
 There are even some bizarre companies which go to great lengths to talk about the *company ethos*. One company (where the boss is likely linked to [Triads](https://en.wikipedia.org/wiki/Triad_(organized_crime))<sup>\[citation NOT needed\]</sup>) stuck a full-length YouTube video in their online job listing just to push their nonsense.
 
-Another company states that 'they believe everybody has something that they were good at', which essentially translates to "cheer up, you're not useless". I find this motto very patronising. It suggests that the firm's interest lies in employing cheap labour without much concern for the quality of work produced, aka 'racing to the bottom'.
+Another company states that 'they believe all people have something that they are good at', which essentially translates to "cheer up, you're not useless". I find this motto very patronising. It suggests that the firm's interest lies in employing cheap labour without much concern for the quality of work produced, aka 'racing to the bottom'.
 
 The condescending waffle reminds me of the phrase 'zo kwe zo', meaning 'all people are people' in the Sango language, which is the motto of the Central African Republic. This country is often referred to as a failed state and has the lowest GDP per capita (PPP) as reported by both the World Bank and the CIA. Note that failed states don't become so without underlying issues. This approach is the opposite of meritocracy, yet ironically, this company hails from Singapore, a nation that prides itself on its meritocratic principles.
 
