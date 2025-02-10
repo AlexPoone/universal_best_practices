@@ -256,4 +256,4 @@ Corporate cults whip up their own fancy language to seem oh-so-special and sophi
 ## Prospects of that city
 Companies in the city I was born in are weirder than that. The same firm mandates formal attire for employees from Monday to Thursday, but switches to casual wear on Fridays, labeling it as a 'staff benefit'. This policy came out of the blue: do employees genuinely care about or enjoy dressing casually on Fridays? Apart from the lousy product and non-existent security, the office was cramped and filled with rubbish, everything was on the floor, things were falling from the shelf, the light was dim, the chairs were broken – they don't have the time to fix all these (which are linked to staff productivity and well-being), yet they have the time to *pontificate* about *company ethos*. Just, wow.
 
-I'm extremely worried about the prospects of that city, to say the least. There may be a handful of firms which are not like this, but most of them are.
+I'm extremely worried about the prospects of that city, to say the least. There may be a handful of firms that are not like this, but most of them, according to my intelligent friends and myself, are.
