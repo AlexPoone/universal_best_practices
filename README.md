@@ -181,12 +181,16 @@ async fn main() -> std::io::Result<()> {
 11. **[RFC 7009](https://datatracker.ietf.org/doc/rfc7009/)**: OAuth 2.0 Token Revocation.
 12. **[RFC 7519](https://datatracker.ietf.org/doc/rfc7519/)**: use JWT for everything confidential, like a log in session. These information must be encrypted beforehand. DON'T store them in `window.localStorage`, store it in Cookies with proper timeout.
 13. Never use gibberish like Lorem Ipsum as placeholders. Better use something like 'This section is under construction.'
-14. Build your own build tools, such that it is adapted to the use case.
-15. Eat your own dog food.
-16. For mobile applications, use a single code base (e.g., Flutter, React Native) when possible (Don't Repeat Yourself; also saves the effort of writing and maintaining code)
-17. **Atomic microservices**: Break tasks to microservices that do one thing only. Most of them should be reusable. Use an orchestration suite (there are lightweight ones like [Airflow](https://airflow.apache.org/) so it is unreasonable to complain about the extra work) for arrangement and error handling.
-18. **ISO 27001**: Use containerisation to isolate working sensitive data, such as server-side workflows using user sessions.
-19. **ISO 27001**: Remove data that are no longer been used. (We ensure this using metadata and an internal system.)
+![image](https://github.com/user-attachments/assets/49c2b25b-be19-43fc-a46a-b9bc9f2a3b6f)
+
+*This is a real public screenshot from the App Store*
+
+15. Build your own build tools, such that it is adapted to the use case.
+16. Eat your own dog food.
+17. For mobile applications, use a single code base (e.g., Flutter, React Native) when possible (Don't Repeat Yourself; also saves the effort of writing and maintaining code)
+18. **Atomic microservices**: Break tasks to microservices that do one thing only. Most of them should be reusable. Use an orchestration suite (there are lightweight ones like [Airflow](https://airflow.apache.org/) so it is unreasonable to complain about the extra work) for arrangement and error handling.
+19. **ISO 27001**: Use containerisation to isolate working sensitive data, such as server-side workflows using user sessions.
+20. **ISO 27001**: Remove data that are no longer been used. (We ensure this using metadata and an internal system.)
 
 ### Dependencies
 20. Use battle-tested libraries, even if they are only slightly more efficient or consume less storage. Don’t rely on random projects by some Russian developer on GitHub that have only a dozen stars (in my case, even the last commit was made 12 years ago) for the supposed benefit of a millisecond performance increase. (Alas, this is a true story.) Always fork the library and keep it updated yourself.
